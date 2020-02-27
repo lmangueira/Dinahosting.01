@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/ServidorDH.dir/main.c.o  -o ServidorDH.exe -Wl,--out-implib,libServidorDH.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lwsock32 -lws2_32 

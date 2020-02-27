@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/ClienteDH.dir/main.c.o  -o ClienteDH.exe -Wl,--out-implib,libClienteDH.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -L/cygdrive/c/Users/think/CLionProjects/Dinahosting/ClienteDH/lib -llibmysql -lwsock32 -lws2_32 
